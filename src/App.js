@@ -1,8 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Navbar } from "./components/common/Navbar";
+import { AllRoutes } from "./components/routes/AllRoutes";
 
 function App() {
-  return <div className="App">C6 revision</div>;
+  return (
+    <>
+      <Navbar />
+      <AllRoutes />
+    </>
+  );
 }
 
 export default App;
