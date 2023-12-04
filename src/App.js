@@ -1,8 +1,7 @@
 import "./App.css";
 
-
 function App() {
-  return <>C5 revision</>;
+  return <h1>C5 revision</h1>;
 }
 
 export default App;
